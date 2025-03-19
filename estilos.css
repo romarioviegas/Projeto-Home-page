@@ -23,8 +23,7 @@ text-align: center;
 @media screen and (max-width:600px){
   
 .cabecalho{
-    background: red;
-    height: 200px;
+  display: none;
   }    
 
 .conteudo{
@@ -39,5 +38,14 @@ text-align: center;
     .cabecalho{
         background: blue;
         height: 100px;
-    }    
+    }   
+    
 } 
+
+/*Breckpoint: 1200*/
+@media screen and (min-width:1025px) and (max-width:1200px){
+  
+    .cabecalho{
+        background: orange;
+    }   
+}
